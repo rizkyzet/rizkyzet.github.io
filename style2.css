@@ -47,7 +47,13 @@ body {
 }
 
 
-
+.ellipse {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    top: 80px;
+}
 
 
 
@@ -202,11 +208,21 @@ body {
 
     }
 
+
+    .ellipse {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 220px;
+        top: 80px;
+    }
+
+
+
 }
 
 /* Desktop */
 @media (min-width: 992px) {
-
 
     .asako {
         width: 80%;
