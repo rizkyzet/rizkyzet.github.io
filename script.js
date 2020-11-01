@@ -47,6 +47,23 @@ interact('.asako').draggable({
   }
 });
 
+const positionPoly = { x: 0, y: 0 }
+
+interact('.polygon').draggable({
+  listeners: {
+    start (event) {
+      console.log(event.type, event.target)
+    },
+    move (event) {
+      positionPoly.x += event.dx
+      positionPoly.y += event.dy
+
+      event.target.style.transform =
+        `translate(${positionPoly.x}px, ${positionPoly.y}px)`
+    },
+  }
+});
+
 
 
   
