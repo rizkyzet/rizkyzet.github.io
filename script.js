@@ -31,5 +31,4 @@ $('.nav-link').click(function(){
 
 
 
-
   
