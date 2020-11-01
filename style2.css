@@ -90,6 +90,8 @@ body {
 .asako {
     width: 250px;
     z-index: 5;
+    touch-action: none;
+    user-select: none;
 }
 
 .polygon {
@@ -209,6 +211,8 @@ body {
         bottom: 0;
         right: 150px;
         z-index: 5;
+        touch-action: none;
+        user-select: none;
     }
 
     .bg-rectangle {
