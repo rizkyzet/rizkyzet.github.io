@@ -53,6 +53,7 @@ body {
     height: 50px;
     right: 30px;
     top: 80px;
+    animation: floatX 6s ease-in-out infinite;
 }
 
 
@@ -109,10 +110,10 @@ body {
     z-index: 6;
     touch-action: none;
     user-select: none;
-    animation: float 6s ease-in-out infinite;
+    animation: floatXR 6s ease-in-out infinite;
 }
 
-@keyframes float {
+@keyframes floatY {
     0% {
 
         transform: translatey(0px);
@@ -120,7 +121,41 @@ body {
 
     50% {
 
-        transform: translatey(-20px);
+        transform: translatey(-40px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+@keyframes floatX {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+
+        transform: translatex(-40px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+@keyframes floatXR {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+
+        transform: translatex(40px);
     }
 
     100% {
@@ -146,7 +181,7 @@ body {
     height: 60px;
     left: 170px;
     top: 10px;
-
+    animation: floatX 6s ease-in-out infinite;
 
 }
 
