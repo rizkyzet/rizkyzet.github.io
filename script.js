@@ -22,3 +22,19 @@ $('body').mousemove(function(e){
    
 
 });
+
+$('.nav-link').click(function(){
+  Swal.fire({
+    title: 'Oops!',
+    text: 'Web sedang dalam proses :)',
+  
+    imageUrl: 'img/download.jpeg',
+    imageAlt: 'Custom image',
+  // backdrop: `
+  //   rgba(0,0,123,0.4)
+  //   url("img/tenor.gif")
+  //   left top
+  //   no-repeat
+  // `
+  })
+});
