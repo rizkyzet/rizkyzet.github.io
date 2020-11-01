@@ -1,0 +1,170 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.container-fluid {
+    background-color: #2368B1;
+    width: 1440px;
+    margin: 0px auto;
+    height: 1000px;
+    padding: 0;
+    position: relative;
+}
+
+.navbar {
+    margin-right: 0;
+    background-color: #2D9CDB !important;
+
+
+}
+
+.nav-link {
+    margin-right: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #F2F2F2;
+}
+
+.navbar-brand {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+
+.container.container-1 {
+    /* background-color: #FFFFFF;
+    height: 1000px;
+    width: 100%; */
+    /* margin: 150px 106px; */
+    margin-left: 106px;
+    margin-right: 458.24px;
+    margin-top: 150px;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+
+
+
+.heading-1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #DABD23;
+    font-style: italic;
+}
+
+.heading-2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+
+
+    color: #F2F2F2;
+}
+
+.body-text {
+    width: 832px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.container.container-2 {
+    width: 585.24px;
+    height: 669.68px;
+
+    position: absolute;
+    left: 811px;
+    top: 184px;
+}
+
+
+.bg-rectangle {
+    position: absolute;
+    width: 335px;
+    height: 634px;
+    left: 999px;
+    top: 205.32px;
+
+    /* Blue 2 */
+
+    background: #2D9CDB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ellipse {
+    position: absolute;
+    left: 1250px;
+    top: 184px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 109.59px;
+    height: 99.87px;
+    left: 1087.69px;
+    top: 228.32px;
+    filter: blur(2px);
+}
+
+.ellipse-line {
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    left: 850px;
+    top: 420.21px;
+    z-index: 1;
+}
+
+
+.polygon {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 1000px;
+    top: 419px;
+    z-index: 3;
+}
+
+.asako {
+    position: absolute;
+    width: 523px;
+    height: 611px;
+    left: 800px;
+    top: 228px;
+    z-index: 2;
+
+}

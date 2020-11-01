@@ -1,0 +1,26 @@
+<svg width="367" height="378" viewBox="0 0 367 378" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="51" y="48" width="265" height="282">
+<ellipse cx="183.473" cy="188.791" rx="128.389" ry="143.906" transform="rotate(29.6522 183.473 188.791)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<line x1="204.224" y1="-135.596" x2="-227.262" y2="622.349" stroke="#DABD23" stroke-width="3"/>
+<line x1="217.748" y1="-127.897" x2="-213.738" y2="630.048" stroke="#DABD23" stroke-width="3"/>
+<line x1="231.272" y1="-120.198" x2="-200.213" y2="637.747" stroke="#DABD23" stroke-width="3"/>
+<line x1="244.797" y1="-112.498" x2="-186.689" y2="645.446" stroke="#DABD23" stroke-width="3"/>
+<line x1="258.321" y1="-104.799" x2="-173.165" y2="653.146" stroke="#DABD23" stroke-width="3"/>
+<line x1="271.846" y1="-97.1" x2="-159.64" y2="660.845" stroke="#DABD23" stroke-width="3"/>
+<line x1="285.37" y1="-89.4008" x2="-146.116" y2="668.544" stroke="#DABD23" stroke-width="3"/>
+<line x1="298.894" y1="-81.7016" x2="-132.592" y2="676.243" stroke="#DABD23" stroke-width="3"/>
+<line x1="312.419" y1="-74.0024" x2="-119.067" y2="683.942" stroke="#DABD23" stroke-width="3"/>
+<line x1="325.943" y1="-66.3032" x2="-105.543" y2="691.642" stroke="#DABD23" stroke-width="3"/>
+<line x1="339.467" y1="-58.604" x2="-92.0185" y2="699.341" stroke="#DABD23" stroke-width="3"/>
+<line x1="352.992" y1="-50.9048" x2="-78.4942" y2="707.04" stroke="#DABD23" stroke-width="3"/>
+<line x1="366.516" y1="-43.2056" x2="-64.9699" y2="714.739" stroke="#DABD23" stroke-width="3"/>
+<line x1="380.04" y1="-35.5064" x2="-51.4455" y2="722.438" stroke="#DABD23" stroke-width="3"/>
+<line x1="393.565" y1="-27.8072" x2="-37.9211" y2="730.138" stroke="#DABD23" stroke-width="3"/>
+<line x1="407.089" y1="-20.108" x2="-24.3968" y2="737.837" stroke="#DABD23" stroke-width="3"/>
+<line x1="420.613" y1="-12.4088" x2="-10.8724" y2="745.536" stroke="#DABD23" stroke-width="3"/>
+<line x1="434.138" y1="-4.70964" x2="2.65194" y2="753.235" stroke="#DABD23" stroke-width="3"/>
+<line x1="447.662" y1="2.98954" x2="16.1763" y2="760.934" stroke="#DABD23" stroke-width="3"/>
+</g>
+</svg>
