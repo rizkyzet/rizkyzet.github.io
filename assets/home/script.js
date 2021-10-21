@@ -5,7 +5,7 @@
 
 new TypeIt('.greeting-box', {
         speed: 50,
-    }).type("Hello im,")
+    }).type('<span class="p-0 m-0" style="font-size:12px;">HELLO, IM</span>')
     .break()
     .type('<span class="p-0 m-0 fs-1">MUHAMAD </span>')
     .pause(500)
@@ -24,5 +24,5 @@ new TypeIt('.greeting-box', {
     .pause(300)
     .type('<span class="p-0 m-0 fs-1">Y</span>')
     .break()
-    .type('AN COMPUTER SCIENCE STUDENT WHO LOVE CODE & DESIGN')
+    .type('<span class="p-0 m-0" style="font-size:12px;">AN COMPUTER SCIENCE STUDENT WHO LOVE CODE & DESIGN</span>')
     .go();
