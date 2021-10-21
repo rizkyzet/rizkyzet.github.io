@@ -75,7 +75,7 @@ body {
     border-bottom: 2px solid white;
 
     animation-name: fillStrip;
-    animation-duration: 0.3fs;
+    animation-duration: 0.3s;
     /* animation-iteration-count: infinite; */
     animation-timing-function: linear;
     /* animation-direction: alternate; */
