@@ -1,7 +1,4 @@
-// new TypeIt('.greeting-box', {
-//     strings: ['HELLO IM,', '<h1 class="p-0 m-0 d-inline">MOCHAMAD RIZKY</h1>', 'AN COMPUTER SCIENCE STUDENT WHO LOVE CODE & DESIGN'],
-//     speed: 50,
-// }).go();
+
 
 new TypeIt('.greeting-box', {
         speed: 50,
