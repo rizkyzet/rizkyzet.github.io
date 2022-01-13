@@ -1,5 +1,5 @@
 const starterTyping = new TypeIt('.greeting-box', {
-        speed: 50,
+        speed: 20,
     }).type('<span class="p-0 m-0" style="font-size:12px;">HELLO, IM</span>')
     .break()
     .type('<span class="p-0 m-0 fs-2">MUHAMAD </span>')
