@@ -11,7 +11,6 @@ body {
 
 body {
     background-color: #222222;
-
 }
 
 .my-container {
@@ -47,7 +46,7 @@ body {
 .rizkyzet {
     position: absolute;
     bottom: 0;
-    height: 92%;
+    height: 85%;
 }
 
 .box {
@@ -72,6 +71,64 @@ body {
     color: white;
 }
 
+
+.icon-contact {
+    position: absolute;
+    display: block;
+    position: absolute;
+    bottom: 50%;
+    background-color: white;
+    width: 3.5em;
+    height: 3.5em;
+    padding: 1em;
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+
+.icon-facebook{
+    background-image: url('/img/icon/facebook.svg');   
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+.icon-github{
+    background-image: url('/img/icon/github.svg');   
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+.icon-dribble{
+    background-image: url('/img/icon/dribble.svg');   
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+.icon-whatsapp{
+    background-image: url('/img/icon/whatsapp.svg');   
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+
+.icon-pinterest{
+    background-image: url('/img/icon/pinterest.svg');   
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+.icon-instagram{
+    background-image: url('/img/icon/instagram.svg');   
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+
+
+
+svg {
+    color: white;
+}
 
 .rizkyzet-shadow {
     position: absolute;
