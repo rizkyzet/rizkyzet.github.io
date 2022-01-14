@@ -54,7 +54,7 @@ const contactTyping = new TypeIt('.greeting-box', {
 
 const javascriptTyping = new TypeIt('.greeting-box', {
     speed: 10,
-}).type('<span class="p-0 m-0" style="font-size:16px;">Basic Javascript, DOM Manipulation, Event Listeners and Javascript Async (such as Promise, Async-Await and Fetch API) and some framework vuejs and nodejs</span>');
+}).type('<span class="p-0 m-0" style="font-size:16px;">Basic Javascript, DOM Manipulation, Event Listeners and Javascript Async (such as Promise, Async-Await and Fetch API) and some little bit knowledge (still learn it) about framework vuejs and expressjs</span>');
 
 const phpTyping = new TypeIt('.greeting-box', {
     speed: 10,
