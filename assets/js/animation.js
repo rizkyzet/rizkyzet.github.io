@@ -4,14 +4,25 @@ const animeSkillPlay = () => {
         autoplay: false,
         opacity: 1,
         scale: 1,
+        rotate:{
+            value:(el,i)=>{
+                if (i == 0) {
+                    return -10;
+                } else if (i == 1) {
+                    return -10;
+                } else {
+                    return 20;
+                }
+            }
+        },
         right: {
             value: (el, i) => {
                 if (i == 0) {
-                    return "60%";
+                    return "65%";
                 } else if (i == 1) {
                     return "0%";
                 } else {
-                    return "20%";
+                    return "5%";
                 }
             },
 
@@ -19,11 +30,11 @@ const animeSkillPlay = () => {
         bottom: {
             value: (el, i) => {
                 if (i == 0) {
-                    return "50%";
+                    return "45%";
                 } else if (i == 1) {
                     return "55%";
                 } else {
-                    return "40%";
+                    return "38%";
                 }
             },
         },

@@ -54,22 +54,54 @@ body {
 }
 
 .box-skill {
+    color: black;
     position: absolute;
-    width: 40%;
+    width: 30%;
+    /* background-color: rgb(17, 17, 17); */
     background-color: white;
     text-align: center;
-    border: 2px solid black;
-    z-index: 6;
+    z-index: 5;
+    border: 0;
     opacity: 1;
     transition: background-color 0.2s ease-in-out;
+    
+   
 }
 
+.box-skill::before{
+    content: '';
+    display: block;
+    background-color: white;
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    right: 95%;
+    bottom: 20%;
+    transition: background-color 0.2s ease-in-out;
+   
+}
+
+.box-skill:nth-child(1)::before{
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    left: 95%;
+    bottom: -20%;
+}
+
+.box-skill:nth-child(2)::before{
+    right: 95%;
+    bottom: -30%;
+}
 
 .box-skill:hover {
-    border: 2px solid white;
-    background-color: black;
-    color: white;
+   color:white;
+   background-color: rgb(17, 17, 17);
 }
+
+.box-skill:hover::before{
+    background-color: rgb(17, 17, 17);
+}
+
 
 
 .icon-contact {
@@ -207,6 +239,17 @@ svg {
     height: 10%;
 }
 
+.rizkyzet-mask{
+    opacity: 1;
+    animation-delay: 0.5s;
+    animation-name: fadeOut;
+    animation-duration: 0.2s;
+
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+}
+
 
 @keyframes toLeft {
     from {
@@ -235,6 +278,15 @@ svg {
 
     to {
         width: 100%;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
     }
 }
 
