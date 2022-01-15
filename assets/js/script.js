@@ -11,7 +11,8 @@ import {
     animeSkillPlay,
     animeSkillBack,
     animeContactPlay,
-    animeContactBack
+    animeContactBack,
+    animeNoGlasses,
 } from "./animation.js"
 
 const startDialogContainer = document.querySelector('.start-dialog')
@@ -26,6 +27,7 @@ firstTyping.go();
 
 
 navHome.addEventListener('click', function () {
+    animeNoGlasses().play();
     if (startDialogContainer) {
         startDialogContainer.remove()
     }
@@ -46,6 +48,9 @@ navHome.addEventListener('click', function () {
 
 
 navSkills.addEventListener('click', function (e) {
+
+   console.log( animeNoGlasses().play());
+
     if (startDialogContainer) {
         startDialogContainer.remove()
     }
@@ -65,6 +70,7 @@ navSkills.addEventListener('click', function (e) {
 
 
 navContact.addEventListener('click', function (e) {
+    animeNoGlasses().play();
     if (startDialogContainer) {
         startDialogContainer.remove()
     }
@@ -76,8 +82,8 @@ navContact.addEventListener('click', function (e) {
     if (skillsTyping.is('started')) {
         skillsTyping.reset();
     }
-  
-resetDialogSkills();
+
+    resetDialogSkills();
 
     contactTyping.go();
     animeSkillBack().play();
@@ -134,7 +140,7 @@ navSkillsCSS.addEventListener('click', function () {
 })
 
 
-const resetDialogSkills = ()=>{
+const resetDialogSkills = () => {
     if (cssTyping.is('started')) {
         cssTyping.reset();
     }

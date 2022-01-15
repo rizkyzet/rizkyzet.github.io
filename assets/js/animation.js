@@ -4,8 +4,8 @@ const animeSkillPlay = () => {
         autoplay: false,
         opacity: 1,
         scale: 1,
-        rotate:{
-            value:(el,i)=>{
+        rotate: {
+            value: (el, i) => {
                 if (i == 0) {
                     return -10;
                 } else if (i == 1) {
@@ -157,9 +157,23 @@ const animeContactBack = () => {
 };
 
 
+const animeNoGlasses = () => {
+    return anime({
+        targets: ".rizkyzet.glasses",
+        autoplay: false,
+        opacity: anime.random(0.7, 0.9),
+        duration: 500,
+        direction: 'alternate',
+        
+
+    });
+}
+
+
 export {
     animeSkillPlay,
     animeSkillBack,
     animeContactPlay,
-    animeContactBack
+    animeContactBack,
+    animeNoGlasses
 }
